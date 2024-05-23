@@ -1,0 +1,150 @@
+.about-page {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: var(--font-name);
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+  }
+  .company-intro{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .company-intro h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ff7f0e; /* Vibrant orange color */
+   
+  }
+  
+  
+  .company-intro p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #586e75; /* Light blue-gray color */
+    width: 80%;
+  }
+
+  .mission-values{
+    display: flex;
+    justify-content: space-between;
+  }
+  .mission-values p{
+    width: 63%;
+  }
+
+  .expertise-services{
+    display: flex;
+    justify-content: space-between;
+  }
+  .expertise-services p{
+    width: 63%;
+  }
+  
+  .mission-values h3,
+  .expertise-services h3,
+  .tour-types h3,
+  .contact-info h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #268bd2; /* Vivid blue color */
+  }
+  .our-values h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #268bd2;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #859900; /* Bright green color */
+  }
+  
+  a {
+    color: #cb4b16; /* Deep orange color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #dc322f; /* Red color on hover */
+  }
+  
+  @media (max-width: 800px) {
+    .about-page {
+      padding: 10px;
+    }
+   .company-intro{
+    flex-direction: column;
+    align-items: center;
+   }
+    .company-intro h2 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .company-intro p {
+      font-size: 16px;
+    }
+    .mission-values{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .mission-values h3,
+    .expertise-services h3,
+    .tour-types h3,
+    .contact-info h3 {
+      font-size: 24px;
+    }
+    .expertise-services{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    li {
+      font-size: 18px;
+    }
+  }
+  @media (max-width:500px) {
+    .company-intro h3,
+    .mission-values h3,
+    .expertise-services h3,
+    .tour-types h3,
+    .contact-info h3 {
+      font-size: 15px;
+    }
+    .company-intro h2{
+      font-size: 20px;
+    }
+    .our-values{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+    }
+    .our-values  li{
+      text-align: center;
+    }
+    .tour-types{
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .tour-types p{
+      font-size: 10px;
+      width: 81%;
+    }
+  }
+  

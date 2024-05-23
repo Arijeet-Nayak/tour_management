@@ -1,0 +1,30 @@
+.image-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .image-card__image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-card__content {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .image-card__description {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  .image-card__price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
